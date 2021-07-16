@@ -30,7 +30,7 @@ function fetchResults()
                 let row = document.createElement("tr");
 
                 //console.log(race.Circuit.Location.country);
-        
+                
                 Object.values(race).forEach(text => {
 
                     if(text !== "Circuit")
